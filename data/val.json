@@ -1,0 +1,34 @@
+[
+  {
+    "instruction": "自然语言处理的应用场景有哪些",
+    "input": "",
+    "output": "自然语言处理的主要应用场景包括：\n1. 智能客服能理解用户问题并给出准确回答\n2. 在人工智能领域广泛使用，解决了传统方法难以处理的问题\n3. 可与其他技术结合，形成更强大的解决方案"
+  },
+  {
+    "instruction": "用Python写一个函数，判断一个字符串是否是回文",
+    "output": "```python\ndef is_palindrome(s):\n    \"\"\"判断字符串是否是回文\"\"\"\n    s = s.lower().replace(' ', '')\n    return s == s[::-1]\n```"
+  },
+  {
+    "instruction": "MCP有什么特点",
+    "input": "",
+    "output": "MCP的主要特点包括：1. 标准化接口；2. 工具即插即用；3. 跨平台兼容。这些特点使得MCP在AI工具协议中具有重要地位。"
+  },
+  {
+    "instruction": "用Python写一个函数，计算斐波那契数列的第n项",
+    "output": "```python\ndef fibonacci(n):\n    \"\"\"计算斐波那契数列的第n项\"\"\"\n    if n <= 0:\n        return 0\n    if n == 1:\n        return 1\n    a, b = 0, 1\n    for _ in range(2, n + 1):\n        a, b = b, a + b\n    return b\n```"
+  },
+  {
+    "instruction": "用Python写一个函数，判断两个字符串是否为字母异位词",
+    "output": "```python\nfrom collections import Counter\n\ndef is_anagram(s1, s2):\n    \"\"\"判断两个字符串是否为字母异位词\"\"\"\n    return Counter(s1) == Counter(s2)\n```"
+  },
+  {
+    "instruction": "请解释什么是MCP",
+    "input": "",
+    "output": "MCP是AI工具协议中的模型上下文协议，AI与工具的标准化接口。简单来说，类似USB-C接口，让AI能统一调用各种外部工具，不用每个工具单独适配。例如，Agent通过MCP协议调用天气API、数据库查询等工具。"
+  },
+  {
+    "instruction": "请解释什么是深度学习",
+    "input": "",
+    "output": "深度学习是机器学习中的基于多层神经网络的学习方法。简单来说，通过模拟人脑的神经网络结构，用多层网络自动提取数据的深层特征。例如，图像识别系统通过卷积神经网络自动学习图片中的特征。"
+  }
+]
